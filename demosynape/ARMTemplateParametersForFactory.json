@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demosynape"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"Local_PC_password": {
+			"value": ""
+		},
+		"Local_PC_properties_typeProperties_host": {
+			"value": "\\\\DESKTOP-5F6DJ1M\\Users\\user\\Documents\\FGA"
+		},
+		"Local_PC_properties_typeProperties_userId": {
+			"value": "user"
+		}
+	}
+}
