@@ -1,0 +1,17 @@
+{
+	"name": "Local_PC",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\DESKTOP-5F6DJ1M\\Users\\user\\Documents\\FGA",
+			"userId": "user",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxNDgwMDUzYi0zYTc1LTQ0ZTctOTg2Ny1mNGNlZGY5OTI2MmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
